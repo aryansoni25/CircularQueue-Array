@@ -47,7 +47,7 @@ public class CircularQueue {
                 topOfQueue++;
             }
             arr[topOfQueue]=value;
-            System.out.println("Successfully inserted "+value+ " in the CQ");
+            System.out.println("Successfully inserted "+value+ " in the CQ. ");
         }
     }
 
@@ -71,7 +71,7 @@ public class CircularQueue {
 
     public int peek(){
         if(isEmpty()){
-            System.out.println("The CQ is Empty!!");
+            System.out.println("The CQ is Empty!! ");
             return -1;
         } else {
             return arr[beginningOfQueue];
@@ -80,6 +80,6 @@ public class CircularQueue {
 
     public void deleteQueue(){
         arr=null;
-        System.out.println("The CQ is Successfully Deleted!!");
+        System.out.println("The CQ is Successfully Deleted!! ");
     }
 }
