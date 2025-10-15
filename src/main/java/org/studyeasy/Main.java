@@ -8,6 +8,7 @@ public class Main {
         cq.EnQueue(30);
         cq.EnQueue(40);
         System.out.println(cq.DeQueue());
+        System.out.println(cq.DeQueue());
         System.out.println(cq.peek());
     }
 

@@ -47,7 +47,7 @@ public class CircularQueue {
                 topOfQueue++;
             }
             arr[topOfQueue]=value;
-            System.out.println("Successfully inserted "+value+ " in the CQ. ");
+            System.out.println("Successfully inserted "+value+ " in the CQ.");
         }
     }
 
