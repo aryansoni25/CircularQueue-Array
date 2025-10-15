@@ -11,7 +11,7 @@ public class CircularQueue {
         this.size=size;
         this.topOfQueue=-1;
         this.beginningOfQueue=-1;
-        System.out.println("Succeesully created Circular Queue of the size: "+size);
+        System.out.println("Successully created Circular Queue of the size: "+size);
     }
 
     public boolean isEmpty(){
